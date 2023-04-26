@@ -57,7 +57,7 @@ const HomeBox = () => {
                                     </div>
                                 </div>
                                 <div className="box-left flex-1 hidden lg:block">
-                                    <div className="box-img  xl:left-[-200px]">
+                                    <div className="box-img   min-[1435px]:left-[-200px] ">
                                         <img
                                             src={Img_Mockup}
                                             className="w-full"
