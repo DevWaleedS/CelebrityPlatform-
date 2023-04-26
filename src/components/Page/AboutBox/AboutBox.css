@@ -1,0 +1,20 @@
+.about{}
+.about .container{}
+.about .container .content{
+box-shadow: 0px 0px 16px #0000000F;
+border-radius: 10px
+
+}
+.about .container .content .box {}
+.about .container .content .box h6{
+
+font: var(--text-font-h6);
+letter-spacing: 0px;
+
+}
+.about .container .content .box p{
+font: var(--text-font-p-3);
+letter-spacing: 0px;
+
+
+}

@@ -1,0 +1,15 @@
+footer {}
+
+footer .container {}
+
+footer .container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font: var(--text-font-h5)
+}
+
+footer .container a span {}
+
+footer .container a span svg {}

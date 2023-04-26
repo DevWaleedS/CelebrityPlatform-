@@ -1,0 +1,65 @@
+.contact-box {}
+
+.contact-box .container {}
+
+.contact-box .container .content {
+  box-shadow: 0px 0px 16px #0000000F;
+  border-radius: 10px;
+}
+
+.contact-box .container .content {}
+
+.contact-box .container .content form {}
+
+.contact-box .container .content form div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+}
+
+.contact-box .container .content form h6 {
+  font: var(--text-font-h6-2);
+}
+
+.contact-box .container .content form div textarea,
+.contact-box .container .content form div input {
+  all: unset;
+  display: block;
+  width: 100%;
+  border: 1px solid #707070;
+  border-radius: 4px;
+  padding: 16px 20px;
+  height: 60px;
+  box-sizing: border-box;
+}
+
+
+
+.contact-box .container .content form div textarea::placeholder,
+.contact-box .container .content form div input::placeholder {
+  font: normal normal normal 16px/30px Cairo;
+  letter-spacing: 0px;
+  color: #969696;
+}
+
+.contact-box .container .content form button {
+  font: normal normal 600 20px/37px Cairo;
+}
+
+.contact-box .container .content .info {}
+
+.contact-box .container .content .info ul {}
+
+.contact-box .container .content .info ul h4 {
+  font: var(--text-font-h4-2);
+}
+
+.contact-box .container .content .info ul li {
+  font: var(--text-font-h6-3);
+
+}
+
+.contact-box .container .content .info ul li span {}

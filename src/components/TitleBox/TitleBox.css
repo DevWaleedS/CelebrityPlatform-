@@ -1,0 +1,13 @@
+.title-box {}
+
+.title-box h1 {
+
+  font: var(--text-font-h1-2);
+  color: var(--text-color-01);
+
+}
+
+.title-box h5 {
+  color: var(--text-color-01);
+  font: var(--text-font-p);
+}

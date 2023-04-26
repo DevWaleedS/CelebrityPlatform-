@@ -1,0 +1,20 @@
+.term-box{}
+.term-box .container{}
+.term-box .container .content{
+box-shadow: 0px 0px 16px #0000000F;
+border-radius: 10px
+
+}
+.term-box .container .content .box {}
+.term-box .container .content .box h6{
+
+font: var(--text-font-h6);
+letter-spacing: 0px;
+
+}
+.term-box .container .content .box p{
+font: var(--text-font-p-3);
+letter-spacing: 0px;
+
+
+}
