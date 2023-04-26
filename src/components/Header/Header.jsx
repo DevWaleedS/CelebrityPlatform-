@@ -74,7 +74,7 @@ const Header = () => {
                 ref={menuLink}
             >
                 <div
-                    className=" absolute top-[20px] left-[20px] z-[5005] cursor-pointer"
+                    className=" absolute top-[40px] left-[20px] z-[5005] cursor-pointer"
                     onClick={handleRemoveMenu}
                 >
                     <HighlightOff className="!text-[32px] !font-[700] !text-main_color_02" />

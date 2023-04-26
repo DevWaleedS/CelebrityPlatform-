@@ -21,10 +21,10 @@ const HomeBox = () => {
                 {/* <!--  start-hero --> */}
                 <div className="section-1  ">
                     <Header />
-                    <div className=" flex justify-center items-start h-[1400px] md:h-[1500px]  lg:h-[920px] 2xl:h-[850px]">
+                    <div className=" flex justify-center items-start h-[1300px] md:h-[1500px]  lg:h-[920px] 2xl:h-[850px]">
                         <div className="container flex-1 h-full flex flex-col justify-center items-center">
                             <div className="hero w-full flex h-full flex-col lg:flex-row">
-                                <div className="  block  lg:hidden h-[500px] md:h-[700px] ">
+                                <div className="  block mt-[80px]  lg:hidden h-[500px] md:h-[700px] ">
                                     <img
                                         src={Img_Mockup}
                                         className="w-full h-full object-cover"
