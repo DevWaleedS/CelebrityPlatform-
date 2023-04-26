@@ -13,3 +13,32 @@ footer .container a {
 footer .container a span {}
 
 footer .container a span svg {}
+
+footer .go-up {
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  background-color: #79b2e8;
+  right: -40px;
+  bottom: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  transition: var(--transition-01);
+  cursor: pointer;
+  z-index: 3000;
+}
+
+footer .go-up span {
+  color: var(--text-color-04);
+}
+
+footer .go-up span svg {
+  margin-bottom: 2px;
+}
+
+footer .go-up.show {
+  right: 15px;
+  font-size: 18px;
+}

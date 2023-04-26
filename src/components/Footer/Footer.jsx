@@ -1,5 +1,7 @@
-import React from 'react';
-import './Footer.css'
+import React, { useEffect, useState } from "react";
+import "./Footer.css";
+import { useScrollYPosition } from "react-use-scroll-position";
+
 import { ReactComponent as Svg_Group } from "../../assets/Icon/Group 9.svg";
 import { ReactComponent as Svg_page } from "../../assets/Icon/Page-1 (1).svg";
 import { ReactComponent as Svg_Path1 } from "../../assets/Icon/Path 36.svg";
@@ -7,7 +9,21 @@ import { ReactComponent as Svg_na } from "../../assets/Icon/Group 48 (1).svg";
 import { ReactComponent as Svg_tk } from "../../assets/Icon/Group 46.svg";
 import { ReactComponent as Svg_sn } from "../../assets/Icon/Group 47.svg";
 import { ReactComponent as Svg_tw } from "../../assets/Icon/Group 45.svg";
+import { KeyboardDoubleArrowUp } from "@mui/icons-material";
 const Footer = () => {
+    const [showup, setShowup] = useState(false);
+    let scrolly = useScrollYPosition();
+
+    useEffect(() => {
+        if (scrolly >= 500) {
+            setShowup(true);
+        } else {
+            setShowup(false);
+        }
+    }, [scrolly]);
+    let goUpWindow = () => {
+        window.scroll(0, 0);
+    };
     return (
         <>
             <footer className="min-h-[182px] bg-color-main-04 ">
@@ -70,6 +86,16 @@ const Footer = () => {
                             </span>
                         </a>
                     </div>
+                </div>
+                <div
+                    className={showup === true ? "go-up show " : "go-up"}
+                    onClick={() => {
+                        window.scroll(0, 0);
+                    }}
+                >
+                    <span>
+                        <KeyboardDoubleArrowUp />
+                    </span>
                 </div>
             </footer>
         </>
