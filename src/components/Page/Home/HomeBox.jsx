@@ -13,13 +13,14 @@ import Img_65 from "../../../assets/Img/65.png";
 import Img_Book from "../../../assets/Img/Free_Book_Mockup_2.png";
 import Img_Mockup from "../../../assets/Img/Mockup.png";
 import Footer from "../../Footer/Footer";
-const HomeBox = ({children}) => {
+import Header from "../../Header/Header";
+const HomeBox = () => {
     return (
         <>
             <div className="overflow-hidden !overflow-y-auto">
                 {/* <!--  start-hero --> */}
                 <div className="section-1  ">
-                    {children}
+                    <Header />
                     <div className=" flex justify-center items-start h-[1400px] md:h-[1500px]  lg:h-[920px] 2xl:h-[850px]">
                         <div className="container flex-1 h-full flex flex-col justify-center items-center">
                             <div className="hero w-full flex h-full flex-col lg:flex-row">

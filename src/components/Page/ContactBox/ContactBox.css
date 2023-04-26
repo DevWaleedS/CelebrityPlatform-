@@ -57,6 +57,7 @@
   font: var(--text-font-h4-2);
 }
 
+.contact-box .container .content .info ul a,
 .contact-box .container .content .info ul li {
   font: var(--text-font-h6-3);
 

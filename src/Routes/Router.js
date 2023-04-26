@@ -35,10 +35,6 @@ export let Router = createBrowserRouter([
 
     {
         path: "/",
-        element: (
-            <Home>
-                <Header />
-            </Home>
-        ),
+        element: <Home />,
     },
 ]);

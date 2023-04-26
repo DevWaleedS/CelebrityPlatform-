@@ -39,19 +39,31 @@ const Footer = () => {
                         </a>
                     </div>
                     <div className="flex  justify-center items-center sm:flex-row flex-col gap-[40px]  md:gap-[100px] lg:gap-[100px] xl:gap-[120px] flex-1">
-                        <a href="#" className="text-color-main-03">
+                        <a
+                            href="tel:+966506340450"
+                            target="blank"
+                            className="text-color-main-03"
+                        >
                             966506340450
                             <span>
                                 <Svg_Group />
                             </span>
                         </a>
-                        <a href="#" className="text-color-main-03">
+                        <a
+                            href="mailto:info@celebrity.sa"
+                            target="blank"
+                            className="text-color-main-03"
+                        >
                             info@celebrity.sa
                             <span>
                                 <Svg_Path1 />
                             </span>
                         </a>
-                        <a href="#" className="text-color-main-03">
+                        <a
+                            href="https://www.bing.com/search?q=celebrity.sa&form=ANNH01&refig=15bdf807f0814dc78654c6bc0883776a"
+                            target="blank"
+                            className="text-color-main-03"
+                        >
                             celebrity.sa
                             <span>
                                 <Svg_page />

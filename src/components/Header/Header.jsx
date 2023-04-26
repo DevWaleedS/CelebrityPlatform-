@@ -30,7 +30,7 @@ const Header = () => {
                         <Menu className="!text-[32px] !font-[700]" />
                     </div>
                     <div className="link flex justify-center items-center max-[910px]:hidden ">
-                        <ul className="flex justify-center items-center gap-[20px] flex-wrap ">
+                        <ul className="flex justify-center items-center gap-[24px] flex-wrap ">
                             <NavLink
                                 to={"/"}
                                 className="text-[17px] font-[600] w-[67px]  "

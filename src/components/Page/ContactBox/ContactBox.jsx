@@ -60,24 +60,36 @@ const ContactBox = () => {
                         <div className="info w-full min-[1280px]:max-w-[357px] max-[1280px]:max-w-[812px]  bg-color-main-06 py-[18px] px-[20px] rounded-[4px] max-[1280px]:w-full max-[1280px]:mx-auto ">
                             <ul>
                                 <h4>معلومات الإتصال</h4>
-                                <li className=" flex justify-start items-center  gap-[14px]">
+                                <a
+                                    href="https://www.bing.com/search?q=celebrity.sa&form=ANNH01&refig=15bdf807f0814dc78654c6bc0883776a"
+                                    target="blank"
+                                    className=" flex justify-start items-center  gap-[14px]"
+                                >
                                     <span>
                                         <Svg_pager />
                                     </span>
                                     celebrity.sa
-                                </li>
-                                <li className=" flex justify-start items-center  gap-[14px]">
+                                </a>
+                                <a
+                                    href="mailto:info@celebrity.sa"
+                                    target="blank"
+                                    className=" flex justify-start items-center  gap-[14px]"
+                                >
                                     <span>
                                         <Svg_mes />
                                     </span>
                                     info@celebrity.sa
-                                </li>
-                                <li className=" flex justify-start items-center  gap-[14px]">
+                                </a>
+                                <a
+                                    href="tel:+966506340450"
+                                    target="blank"
+                                    className=" flex justify-start items-center  gap-[14px]"
+                                >
                                     <span>
                                         <Svg_phone />
                                     </span>
                                     966506340450
-                                </li>
+                                </a>
                             </ul>
                         </div>
                     </div>
