@@ -43,15 +43,17 @@
 
    display: flex;
    flex-direction: column;
+   align-items: end;
    justify-content: end;
-   left: -80%;
    top: 0;
    bottom: 0;
-   background-color: #e1f0f7;
+   background-color: #0000005e;
    max-height: 100vh;
    max-height: 100dvh;
    position: fixed;
-   width: 70%;
+   width: 100%;
+   left: -105%;
+
    display: flex;
    opacity: 0;
    height: 100vh;

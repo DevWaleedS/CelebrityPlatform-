@@ -72,14 +72,20 @@ const Header = () => {
             <div
                 className="menu-link    z-[5000] min-[910px]:!hidden"
                 ref={menuLink}
+                onClick={(e) => {
+                    if (e.target.classList.contains("menu-link")) {
+                        handleRemoveMenu();
+                    }
+                }}
             >
-                <div
-                    className=" absolute top-[40px] right-[20px] z-[5005] cursor-pointer"
-                    onClick={handleRemoveMenu}
-                >
-                    <HighlightOff className="!text-[32px] !font-[700] !text-main_color_02" />
-                </div>
-                <ul className=" h-full gap-[20px]  bg-white w-full max-w-[100%] relative z-[1002] p-[20px] flex justify-center items-center flex-col">
+                <ul className=" h-full gap-[20px]  bg-[#f9f9f9] w-[70%] max-w-[100%] relative z-[1002] p-[20px] flex justify-center items-center flex-col">
+                    <div
+                        className=" absolute top-[40px] right-[20px] z-[5005] cursor-pointer"
+                        onClick={handleRemoveMenu}
+                    >
+                        <HighlightOff className="!text-[32px] !font-[700] !text-main_color_02" />
+                    </div>
+
                     <NavLink
                         to={"/"}
                         className=" px[12px] text-color-main-04 tn hover:border-b-[1px] border-color-main-04  w-fit font-[600] cursor-pointer text-[20px]"
