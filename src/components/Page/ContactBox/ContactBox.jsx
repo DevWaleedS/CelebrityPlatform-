@@ -61,7 +61,7 @@ const ContactBox = () => {
                             <ul>
                                 <h4>معلومات الإتصال</h4>
                                 <a
-                                    href="https://www.bing.com/search?q=celebrity.sa&form=ANNH01&refig=15bdf807f0814dc78654c6bc0883776a"
+                                    href="https://blog.celebrityads.net"
                                     target="blank"
                                     className=" flex justify-start items-center  gap-[14px]"
                                 >
@@ -81,7 +81,7 @@ const ContactBox = () => {
                                     info@celebrity.sa
                                 </a>
                                 <a
-                                    href="tel:+966506340450"
+                                    href="tel:0506340450"
                                     target="blank"
                                     className=" flex justify-start items-center  gap-[14px]"
                                 >

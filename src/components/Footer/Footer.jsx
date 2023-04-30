@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
-import "./Footer.css";
 import { useScrollYPosition } from "react-use-scroll-position";
+import "./Footer.css";
 
+import { KeyboardDoubleArrowUp } from "@mui/icons-material";
+import { ReactComponent as Svg_sn } from "../../assets/Icon/Group 45.svg";
+import { ReactComponent as Svg_tk } from "../../assets/Icon/Group 46.svg";
+import { ReactComponent as Svg_tw } from "../../assets/Icon/Group 47.svg";
+import { ReactComponent as Svg_na } from "../../assets/Icon/Group 48 (1).svg";
 import { ReactComponent as Svg_Group } from "../../assets/Icon/Group 9.svg";
 import { ReactComponent as Svg_page } from "../../assets/Icon/Page-1 (1).svg";
 import { ReactComponent as Svg_Path1 } from "../../assets/Icon/Path 36.svg";
-import { ReactComponent as Svg_na } from "../../assets/Icon/Group 48 (1).svg";
-import { ReactComponent as Svg_tk } from "../../assets/Icon/Group 46.svg";
-import { ReactComponent as Svg_sn } from "../../assets/Icon/Group 47.svg";
-import { ReactComponent as Svg_tw } from "../../assets/Icon/Group 45.svg";
-import { KeyboardDoubleArrowUp } from "@mui/icons-material";
 const Footer = () => {
     const [showup, setShowup] = useState(false);
     let scrolly = useScrollYPosition();
@@ -30,37 +30,41 @@ const Footer = () => {
                 <div className="container flex  min-h-[182px] py-[60px] justify-center items-center lg:flex-row flex-col-reverse lg:gap-0 gap-[30px] ">
                     <div className=" flex justify-center items-center gap-[15px]">
                         <a
-                            href="#"
+                            href="https://twitter.com/celebrityads1"
                             className="w-[36px]  h-[36px] flex justify-center items-center "
+                            target="blank"
                         >
                             <Svg_tw />
                         </a>
                         <a
-                            href="#"
+                            href="https://www.tiktok.com/@celebrityads1"
                             className="w-[36px]  h-[36px] flex justify-center items-center "
+                            target="blank"
                         >
                             <Svg_tk />
                         </a>
                         <a
-                            href="#"
+                            href="https://snapchat.com/add/celebrityads1"
                             className="w-[36px]  h-[36px] flex justify-center items-center "
+                            target="blank"
                         >
                             <Svg_sn />
                         </a>
                         <a
-                            href="#"
+                            href="https://www.instagram.com/celebrityads1/"
                             className="w-[36px]  h-[36px] flex justify-center items-center "
+                            target="blank"
                         >
                             <Svg_na />
                         </a>
                     </div>
                     <div className="flex  justify-center items-center sm:flex-row flex-col gap-[40px]  md:gap-[100px] lg:gap-[100px] xl:gap-[120px] flex-1">
                         <a
-                            href="tel:+966506340450"
+                            href="tel:0506340450"
                             target="blank"
                             className="text-color-main-03"
                         >
-                            966506340450
+                            0506340450
                             <span>
                                 <Svg_Group />
                             </span>
@@ -76,7 +80,7 @@ const Footer = () => {
                             </span>
                         </a>
                         <a
-                            href="https://www.bing.com/search?q=celebrity.sa&form=ANNH01&refig=15bdf807f0814dc78654c6bc0883776a"
+                            href="https://blog.celebrityads.net"
                             target="blank"
                             className="text-color-main-03"
                         >
