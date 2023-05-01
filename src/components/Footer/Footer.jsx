@@ -3,10 +3,10 @@ import { useScrollYPosition } from "react-use-scroll-position";
 import "./Footer.css";
 
 import { KeyboardDoubleArrowUp } from "@mui/icons-material";
-import { ReactComponent as Svg_sn } from "../../assets/Icon/Sn.svg";
-import { ReactComponent as Svg_tk } from "../../assets/Icon/Tik.svg";
-import { ReactComponent as Svg_tw } from "../../assets/Icon/Tw.svg";
-import { ReactComponent as Svg_na } from "../../assets/Icon/In.svg";
+import { ReactComponent as Svg_fa } from "../../assets/Icon/icon-faceboock.svg";
+import { ReactComponent as Svg_tk } from "../../assets/Icon/twitter.svg";
+import { ReactComponent as Svg_tw } from "../../assets/Icon/icon-twitter.svg";
+import { ReactComponent as Svg_na } from "../../assets/Icon/icon-insta.svg";
 import { ReactComponent as Svg_Group } from "../../assets/Icon/Group 9.svg";
 import { ReactComponent as Svg_page } from "../../assets/Icon/Page-1 (1).svg";
 import { ReactComponent as Svg_Path1 } from "../../assets/Icon/Path 36.svg";
@@ -44,11 +44,11 @@ const Footer = () => {
                             <Svg_tk />
                         </a>
                         <a
-                            href="https://snapchat.com/add/celebrityads1"
+                            href="https://www.facebook.com/celebrityads1"
                             className="w-[36px]  h-[36px] flex justify-center items-center "
                             target="blank"
                         >
-                            <Svg_sn />
+                            <Svg_fa />
                         </a>
                         <a
                             href="https://www.instagram.com/celebrityads1/"
