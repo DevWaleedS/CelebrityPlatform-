@@ -3,10 +3,10 @@ import { useScrollYPosition } from "react-use-scroll-position";
 import "./Footer.css";
 
 import { KeyboardDoubleArrowUp } from "@mui/icons-material";
-import { ReactComponent as Svg_sn } from "../../assets/Icon/Group 45.svg";
-import { ReactComponent as Svg_tk } from "../../assets/Icon/Group 46.svg";
-import { ReactComponent as Svg_tw } from "../../assets/Icon/Group 47.svg";
-import { ReactComponent as Svg_na } from "../../assets/Icon/Group 48 (1).svg";
+import { ReactComponent as Svg_sn } from "../../assets/Icon/Sn.svg";
+import { ReactComponent as Svg_tk } from "../../assets/Icon/Tik.svg";
+import { ReactComponent as Svg_tw } from "../../assets/Icon/Tw.svg";
+import { ReactComponent as Svg_na } from "../../assets/Icon/In.svg";
 import { ReactComponent as Svg_Group } from "../../assets/Icon/Group 9.svg";
 import { ReactComponent as Svg_page } from "../../assets/Icon/Page-1 (1).svg";
 import { ReactComponent as Svg_Path1 } from "../../assets/Icon/Path 36.svg";
@@ -60,11 +60,11 @@ const Footer = () => {
                     </div>
                     <div className="flex  justify-center items-center sm:flex-row flex-col gap-[40px]  md:gap-[100px] lg:gap-[100px] xl:gap-[120px] flex-1">
                         <a
-                            href="tel:0506340450"
+                            href="tel:+9660506340450"
                             target="blank"
                             className="text-color-main-03"
                         >
-                            0506340450
+                            <bdi>+9660506340450</bdi>
                             <span>
                                 <Svg_Group />
                             </span>

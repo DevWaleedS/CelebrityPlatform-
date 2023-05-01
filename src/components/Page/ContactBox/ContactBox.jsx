@@ -81,14 +81,14 @@ const ContactBox = () => {
                                     info@celebrity.sa
                                 </a>
                                 <a
-                                    href="tel:0506340450"
+                                    href="tel:+9660506340450"
                                     target="blank"
                                     className=" flex justify-start items-center  gap-[14px]"
                                 >
                                     <span>
                                         <Svg_phone />
                                     </span>
-                                    966506340450
+                                    <bdi>+9660506340450</bdi>
                                 </a>
                             </ul>
                         </div>

@@ -8,7 +8,7 @@ const AboutBox = () => {
                 <div className="title-box pt-[61px]">
                     <div className="container flex justify-center items-center text-center flex-col md:gap-[19px]">
                         <h1 className="">من نحن</h1>
-                        <h5 className="">
+                        <h5 className="text-start">
                             منصات المشاهير هي المنصة الأولى عالمياً التي تجمع
                             (مشاهير مواقع التواصل الاجتماعي و المتابعين و
                             التجار) في مكان واحد لتعزز التواصل بين المتابع و
