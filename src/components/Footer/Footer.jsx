@@ -24,6 +24,7 @@ const Footer = () => {
     let goUpWindow = () => {
         window.scroll(0, 0);
     };
+
     return (
         <>
             <footer className="min-h-[182px] bg-color-main-04 ">
