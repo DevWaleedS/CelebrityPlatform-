@@ -46,17 +46,16 @@ const Header = () => {
                             </NavLink>
 
                             <NavLink
+                                to={"/home/term"}
+                                className="text-[17px] font-[600] w-[150px]  "
+                            >
+                                اتفاقية الاستخدام
+                            </NavLink>
+                            <NavLink
                                 to={"/home/privacy"}
                                 className="text-[17px] font-[600]  w-[145px]  "
                             >
                                 سياسة الخصوصية
-                            </NavLink>
-
-                            <NavLink
-                                to={"/home/term"}
-                                className="text-[17px] font-[600] w-[133px]  "
-                            >
-                                الشروط والأحكام
                             </NavLink>
 
                             <NavLink
