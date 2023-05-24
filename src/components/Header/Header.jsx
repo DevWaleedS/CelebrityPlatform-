@@ -100,7 +100,13 @@ const Header = () => {
                     >
                         من نحن
                     </NavLink>
-
+                    <NavLink
+                        to={"/home/term"}
+                        className=" px[12px] text-color-main-04 tn hover:border-b-[1px] border-color-main-04  w-fit font-[600] cursor-pointer text-[20px]"
+                        onClick={handleRemoveMenu}
+                    >
+                        اتفاقية الاستخدام
+                    </NavLink>
                     <NavLink
                         to={"/home/privacy"}
                         className=" px[12px] text-color-main-04 tn hover:border-b-[1px] border-color-main-04  w-fit font-[600] cursor-pointer text-[20px]"
@@ -109,13 +115,7 @@ const Header = () => {
                         سياسة الخصوصية
                     </NavLink>
 
-                    <NavLink
-                        to={"/home/term"}
-                        className=" px[12px] text-color-main-04 tn hover:border-b-[1px] border-color-main-04  w-fit font-[600] cursor-pointer text-[20px]"
-                        onClick={handleRemoveMenu}
-                    >
-                        الشروط والأحكام
-                    </NavLink>
+
 
                     <NavLink
                         to={"/home/contact"}
