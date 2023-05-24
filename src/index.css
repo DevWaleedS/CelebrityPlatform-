@@ -37,6 +37,7 @@ html {
   ;
   --text-font-h5: normal normal normal 20px/45px Cairo;
   --text-font-h6: normal normal 600 24px/37px Cairo;
+  --text-font-h6-5: normal normal 600 24px/37px Cairo;
   --text-font-h6-2: normal normal normal 18px/33px Cairo;
   --text-font-h4-2: normal normal bold 24px/45px Cairo;
   --text-font-h6-3: normal normal normal 24px/45px Cairo;
@@ -93,6 +94,7 @@ html {
     --text-font-p: normal normal 600 17px/45px Cairo;
     --text-font-h5: normal normal normal 18px/45px Cairo;
     --text-font-h6: normal normal 600 20px/37px Cairo;
+    --text-font-h6-5: normal normal 600 18px/37px Cairo;
     --text-font-h6-2: normal normal normal 18px/33px Cairo;
 
 

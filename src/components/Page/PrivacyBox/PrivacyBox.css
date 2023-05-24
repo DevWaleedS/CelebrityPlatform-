@@ -1,26 +1,31 @@
-.privacy-box{}
-.privacy-box .container{}
-.privacy-box .container .content{
-box-shadow: 0px 0px 16px #0000000F;
-border-radius: 10px
+.privacy-box {}
 
+.privacy-box .container {}
+
+.privacy-box .container .content {
+  box-shadow: 0px 0px 16px #0000000F;
+  border-radius: 10px
 }
+
 .privacy-box .container .content .box {}
-.privacy-box .container .content .box h1{
 
-font: var(--text-font-h1-3);
-letter-spacing: 0px;
+.privacy-box .container .content .box h1 {
 
-}
-.privacy-box .container .content .box h6{
-
-font: var(--text-font-h6);
-letter-spacing: 0px;
+  font: var(--text-font-h1-3);
+  letter-spacing: 0px;
 
 }
-.privacy-box .container .content .box p{
-font: var(--text-font-p-3);
-letter-spacing: 0px;
+
+.privacy-box .container .content .box h6 {
+
+  font: var(--text-font-h6-5);
+  letter-spacing: 0px;
+
+}
+
+.privacy-box .container .content .box p {
+  font: var(--text-font-p-3);
+  letter-spacing: 0px;
 
 
 }
