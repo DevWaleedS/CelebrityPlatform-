@@ -15,7 +15,7 @@ const PrivacyBox = () => {
                     description={`نرحب بكم في منصات المشاهير، ونتقدم بالشكر على ثقتكم بالمنصات، ونفيدكم بأنّه حرصاً منا إدراكنا التام بأنّ المستخدم (تاجر-متابع) والمشهور لهما حقوق معيّنة عبر منصات المشاهير، فإنّ منصات المشاهير تسعى للحفاظ على المعلومات الخاصة بالمستخدم (تاجر-متابع) والمشهور، وفقاً لآلية سياسة الخصوصية وسرية المعلومات المعمول بها في منصات المشاهير. وعليه  فإنّ منصات المشاهير تُنوّه بأنّه وفقاً لاتفاقية الاستخدام المبرمة بين المستخدمين (تاجر-متابع) وبين منصات المشاهير فإنّ هذه الوثيقة تُحيطكم علماً بسياسة الخصوصية وسرية المعلومات المعمول بها في منصات المشاهير، وأنّه وفقاً لـ (قواعد وأحكام استخدام منصات المشاهير) من اتفاقية الاستخدام فقد أنشأت منصات المشاهير هذه القواعد “سياسة الخصوصية وسرية المعلومات” لتوضيح وتحديد آلية السرية والخصوصية المعمول بها في منصات المشاهير الالكترونية، ويرجى اطلاعكم عليها حيث أنكم بتسجيلكم في منصات المشاهير وتأسيسكم للملف والصفحة الإلكترونية فإنّ جميع معلوماتكم تخضع لهذه السياسة.`}
                 />
                 <div className="container h-full flex justify-center flex-col gap-[28px] items-center mt-[48px]">
-                    <div className="content min-h-[357px] w-full py-[43px] px-[30px] md:px-[58px] flex gap-[43px] flex-col justify-start items-start">
+                    <div className="content min-h-[357px] w-full py-[43px] px-[15x] md:px-[58px] flex gap-[43px] flex-col justify-start items-start">
                         <div className="box flex-col justify-start items-start">
 
                             <h6>المعلومات التي تحصل عليها منصات المشاهير وتحتفظ بها في أنظمتها الإلكترونية:
@@ -30,7 +30,7 @@ const PrivacyBox = () => {
                         </div>
 
                     </div>
-                    <div className="content min-h-[357px] w-full py-[43px] px-[30px] md:px-[58px] flex gap-[43px] flex-col justify-start items-start">
+                    <div className="content min-h-[357px] w-full py-[43px] px-[15x] md:px-[58px] flex gap-[43px] flex-col justify-start items-start">
 
                         <div className="box flex-col justify-start items-start">
 
@@ -44,7 +44,7 @@ const PrivacyBox = () => {
 
 
                     </div>
-                    <div className="content min-h-[357px] w-full py-[43px] px-[30px] md:px-[58px] flex gap-[43px] flex-col justify-start items-start">
+                    <div className="content min-h-[357px] w-full py-[43px] px-[15x] md:px-[58px] flex gap-[43px] flex-col justify-start items-start">
 
                         <div className="box flex-col justify-start items-start">
 
@@ -63,7 +63,7 @@ const PrivacyBox = () => {
 
 
                     </div>
-                    <div className="content min-h-[357px] w-full py-[43px] px-[30px] md:px-[58px] flex gap-[43px] flex-col justify-start items-start">
+                    <div className="content min-h-[357px] w-full py-[43px] px-[15x] md:px-[58px] flex gap-[43px] flex-col justify-start items-start">
 
                         <div className="box flex-col justify-start items-start">
 
@@ -81,7 +81,7 @@ const PrivacyBox = () => {
 
 
                     </div>
-                    <div className="content min-h-[357px] w-full py-[43px] px-[30px] md:px-[58px] flex gap-[43px] flex-col justify-start items-start">
+                    <div className="content min-h-[357px] w-full py-[43px] px-[15x] md:px-[58px] flex gap-[43px] flex-col justify-start items-start">
 
                         <div className="box flex-col justify-start items-start">
 
@@ -94,7 +94,7 @@ const PrivacyBox = () => {
 
 
                     </div>
-                    <div className="content min-h-[357px] w-full py-[43px] px-[30px] md:px-[58px] flex gap-[43px] flex-col justify-start items-start">
+                    <div className="content min-h-[357px] w-full py-[43px] px-[15x] md:px-[58px] flex gap-[43px] flex-col justify-start items-start">
 
                         <div className="box flex-col justify-start items-start">
 
@@ -108,7 +108,7 @@ const PrivacyBox = () => {
 
 
                     </div>
-                    <div className="content min-h-[357px] w-full py-[43px] px-[30px] md:px-[58px] flex gap-[43px] flex-col justify-start items-start">
+                    <div className="content min-h-[357px] w-full py-[43px] px-[15x] md:px-[58px] flex gap-[43px] flex-col justify-start items-start">
 
 
                         <div className="box flex-col justify-start items-start">
