@@ -39,7 +39,7 @@ const AboutBox = () => {
                     </div>
                 </div>
                 <div className="container h-full flex justify-center items-center mt-[48px]">
-                    <div className="content min-h-[681px] w-full py-[43px] px-[30px] md:px-[58px] flex gap-[43px] flex-col justify-start items-start">
+                    <div className="content min-h-[681px] w-full py-[43px] px-[15px] md:px-[58px] flex gap-[43px] flex-col justify-start items-start">
                         <div className="box flex-col justify-start items-start">
                             <h6>فكرة المنصة</h6>
                             <p>
