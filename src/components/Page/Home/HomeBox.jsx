@@ -14,6 +14,8 @@ import Img_Book from "../../../assets/Img/Free_Book_Mockup_2.png";
 import Img_Mockup from "../../../assets/Img/Mockup.png";
 import Footer from "../../Footer/Footer";
 import Header from "../../Header/Header";
+import Book from '../../../assets/File/book.pdf'
+
 const HomeBox = () => {
     return (
         <>
@@ -264,8 +266,10 @@ const HomeBox = () => {
                                     نقدم لك كتاب التسويق الإلكتروني
                                 </h4>
                                 <a
-                                    download=""
-                                    href="#"
+
+                                    href={Book}
+                                    download={'التسويق الالكتروني -منصات المشاهير'}
+                                    target="blank"
                                     className="w-full max-w-[398px] flex justify-center rounded-full items-center gap-[20px]  flex-row-reverse"
                                 >
                                     تحميل الكتاب الآن
