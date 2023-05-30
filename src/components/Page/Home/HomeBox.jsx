@@ -268,7 +268,7 @@ const HomeBox = () => {
                                 <a
 
                                     href={Book}
-                                    download={'التسويق الالكتروني -منصات المشاهير'}
+                                    download={'التسويق الالكتروني -منصات المشاهير' + ".pdf"}
                                     target="blank"
                                     className="w-full max-w-[398px] flex justify-center rounded-full items-center gap-[20px]  flex-row-reverse"
                                 >
